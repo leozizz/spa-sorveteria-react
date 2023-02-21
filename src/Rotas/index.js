@@ -9,7 +9,7 @@ import Sobre from "../componentes/paginas/Sobre"
 const Rotas = () => (
     <BrowserRouter>
         <Routes>
-            <Route path exact='/' element={<Home/>}/>
+            <Route exact path='/' element={<Home/>}/>
             <Route path='/sabores' element={<Sabores/>}/>
             <Route path='/sobre' element={<Sobre/>}/>
         </Routes>
