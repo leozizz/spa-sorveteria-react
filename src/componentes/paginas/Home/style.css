@@ -1,0 +1,55 @@
+/* Seção Banner */
+.banner {
+    background-color: yellow;
+    background-image: url('/public/assets/banner-home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+
+
+/* Estilos Comuns */
+
+.sabores,
+.eventos,
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sabores div,
+.eventos div,
+.sobre div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.sabores div h2,
+.eventos div h3,
+.sobre div h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.sabores div span,
+.eventos div span,
+.sobre div span{
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 40px;
+}
+
+.sabores div, .sabores img,
+.eventos div, .eventos img,
+.sobre div, .sobre img {
+    width: 50%;
+}

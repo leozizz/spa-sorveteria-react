@@ -1,4 +1,6 @@
 import React from "react";
+import './style.css'
+
 import Topo from "../../Topo/"
 import Rodape from "../../Rodape";
 import { Link } from 'react-router-dom';

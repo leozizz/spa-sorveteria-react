@@ -1,0 +1,21 @@
+header {
+    background-color: yellow;
+    width: 100vw;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo img {
+    width: 50px;
+}
+
+.nav-menu .menu-item{
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #000;
+}
