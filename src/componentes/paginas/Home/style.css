@@ -1,6 +1,7 @@
 /* Seção Banner */
 .banner {
-    background-color: yellow;
+    margin-top: 50px;
+    background-color: #F9DB79;
     background-image: url('/public/assets/banner-home.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 35px;
     color: white;
     text-shadow: 2px 2px #000;
@@ -52,4 +54,30 @@
 .eventos div, .eventos img,
 .sobre div, .sobre img {
     width: 50%;
+}
+
+/* Responsivo */
+
+@media (max-width: 425px) { 
+
+    .sabores,
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sabores div,
+    .eventos div,
+    .sobre div {
+        text-align: center;
+    }    
+
+    .sabores div, .sabores img,
+    .eventos div, .eventos img,
+    .sobre div, .sobre img {
+        width: 100%;
+    }
+
+    .eventos {
+        flex-direction: column-reverse;
+    }
 }

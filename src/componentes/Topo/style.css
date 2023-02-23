@@ -1,5 +1,7 @@
 header {
-    background-color: yellow;
+    position: fixed;
+    top: 0;
+    background-color: #F9DB79;
     width: 100vw;
 }
 
@@ -14,8 +16,24 @@ header {
 }
 
 .nav-menu .menu-item{
+    margin-left: 10px;
     text-decoration: none;
     padding-left: 10px;
     font-weight: 600;
     color: #000;
+}
+
+/* Responsivo */
+
+.topo {
+    flex-direction: column;
+}
+
+.nav-menu {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #aaadaf;
+    display: flex;
+    justify-content: space-around;
 }

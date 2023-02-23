@@ -1,0 +1,35 @@
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-container .logo {
+    width: 100px;
+}
+
+.footer-container .item-container {
+    width: 200px
+}
+
+.copy {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsivo */
+
+.footer-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-container .item-container {
+    margin-top: 20px;
+}
