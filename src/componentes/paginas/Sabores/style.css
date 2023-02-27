@@ -1,0 +1,10 @@
+.banner-sabores {
+    background-image: url('/public/assets/banner-sabores.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sabores {
+    display: flex;
+}

@@ -9,12 +9,12 @@ const Home = () => (
     <div>
         <Topo />
         <div>
-            <section className="banner">
+            <section className="banner banner-principal">
                 <div>
                     <h1>SORVETE ARTESANAL</h1>
                 </div>
             </section>
-            <section className="sabores">
+            <section className="secao-sabores">
                 <img src="assets/banner-sabores.jpg"/>
                 <div>
                     <h2>NOSSOS SABORES</h2>
@@ -25,7 +25,7 @@ const Home = () => (
                     </p>
                 </div>
             </section>
-            <section className="eventos">
+            <section className="secao-eventos">
                 <div>
                     <h3>NOSSOS EVENTOS</h3>
                     <span>Delicias com sorvete!</span>
@@ -35,7 +35,7 @@ const Home = () => (
                 </div>
                 <img src="assets/eventos-image.jpg"/>
             </section>
-            <section className="sobre">
+            <section className="secao-sobre">
                 <img src="assets/sobre-image.jpg"/>
                 <div>
                     <h3>SOBRE NÓS</h3>
