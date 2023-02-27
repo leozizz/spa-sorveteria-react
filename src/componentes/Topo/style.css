@@ -25,15 +25,25 @@ header {
 
 /* Responsivo */
 
-.topo {
-    flex-direction: column;
+@media (max-width: 768px) {
+
+    .topo {
+        margin: 10px 30px 0px 30px;
+    }
 }
 
-.nav-menu {
-    width: 80%;
-    padding: 10px;
-    margin-top: 10px;
-    border-top: 1px solid #aaadaf;
-    display: flex;
-    justify-content: space-around;
+@media (max-width: 436px) {
+
+    .topo {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        width: 80%;
+        padding: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #aaadaf;
+        display: flex;
+        justify-content: space-around;
+    }
 }

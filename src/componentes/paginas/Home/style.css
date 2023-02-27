@@ -58,7 +58,36 @@
 
 /* Responsivo */
 
-@media (max-width: 425px) { 
+@media (max-width: 768px) {
+    
+    .sabores,
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sabores div,
+    .eventos div,
+    .sobre div {
+        text-align: center;
+        margin: 100px;
+    }    
+
+    .sabores div, .sabores img,
+    .eventos div, .eventos img,
+    .sobre div, .sobre img {
+        width: 100%;
+    }
+
+    .eventos {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 436px) { 
+
+    .banner {
+        margin-top: 120px;
+    }
 
     .sabores,
     .sobre {
