@@ -20,41 +20,41 @@
 
 /* Estilos Comuns */
 
-.secao-sabores,
-.secao-eventos,
-.secao-sobre {
+.sabores-home,
+.eventos,
+.sobre {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.secao-sabores div,
-.secao-eventos div,
-.secao-sobre div {
+.sabores-home div,
+.eventos div,
+.sobre div {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 50px;
 }
 
-.secao-sabores div h2,
-.secao-eventos div h3,
-.secao-sobre div h3{
+.sabores-home div h2,
+.eventos div h3,
+.sobre div h3{
     font-size: 28px;
     font-weight: 700;
 }
 
-.secao-sabores div span,
-.secao-eventos div span,
-.secao-sobre div span{
+.sabores-home div span,
+.eventos div span,
+.sobre div span{
     font-weight: 600;
     font-style: italic;
     padding-bottom: 40px;
 }
 
-.secao-sabores div, .secao-sabores img,
-.secao-eventos div, .secao-eventos img,
-.secao-sobre div, .secao-sobre img {
+.sabores-home div, .sabores-home img,
+.eventos div, .eventos img,
+.sobre div, .sobre img {
     width: 50%;
 }
 
@@ -62,25 +62,25 @@
 
 @media (max-width: 768px) {
     
-    .secao-sabores,
-    .secao-sobre {
+    .sabores-home,
+    .sobre {
         flex-direction: column;
     }
 
-    .secao-sabores div,
-    .secao-eventos div,
-    .secao-sobre div {
+    .sabores-home div,
+    .eventos div,
+    .sobre div {
         text-align: center;
         margin: 100px;
     }    
 
-    .secao-sabores div, .secao-sabores img,
-    .secao-eventos div, .secao-eventos img,
-    .secao-sobre div, .secao-sobre img {
+    .sabores-home div, .sabores-home img,
+    .eventos div, .eventos img,
+    .sobre div, .sobre img {
         width: 100%;
     }
 
-    .secao-eventos {
+    .eventos {
         flex-direction: column-reverse;
     }
 }
@@ -91,24 +91,24 @@
         margin-top: 120px;
     }
 
-    .secao-sabores,
-    .secao-sobre {
+    .sabores-home,
+    .sobre {
         flex-direction: column;
     }
 
-    .secao-sabores div,
-    .secao-eventos div,
-    .secao-sobre div {
+    .sabores-home div,
+    .eventos div,
+    .sobre div {
         text-align: center;
     }    
 
-    .secao-sabores div, .secao-sabores img,
-    .secao-eventos div, .secao-eventos img,
-    .secao-sobre div, .secao-sobre img {
+    .sabores-home div, .sabores-home img,
+    .eventos div, .eventos img,
+    .sobre div, .sobre img {
         width: 100%;
     }
 
-    .secao-eventos {
+    .eventos {
         flex-direction: column-reverse;
     }
 }

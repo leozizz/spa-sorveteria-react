@@ -14,7 +14,7 @@ const Home = () => (
                     <h1>SORVETE ARTESANAL</h1>
                 </div>
             </section>
-            <section className="secao-sabores">
+            <section className="sabores-home">
                 <img src="assets/banner-sabores.jpg"/>
                 <div>
                     <h2>NOSSOS SABORES</h2>
@@ -25,7 +25,7 @@ const Home = () => (
                     </p>
                 </div>
             </section>
-            <section className="secao-eventos">
+            <section className="eventos">
                 <div>
                     <h3>NOSSOS EVENTOS</h3>
                     <span>Delicias com sorvete!</span>
@@ -35,7 +35,7 @@ const Home = () => (
                 </div>
                 <img src="assets/eventos-image.jpg"/>
             </section>
-            <section className="secao-sobre">
+            <section className="sobre">
                 <img src="assets/sobre-image.jpg"/>
                 <div>
                     <h3>SOBRE NÓS</h3>
