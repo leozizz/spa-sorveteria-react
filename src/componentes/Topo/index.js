@@ -12,7 +12,7 @@ const Topo = () => {
             <nav className="nav-menu">
                 <Link className="menu-item" to='/'>Home</Link>
                 <Link className="menu-item" to='/sabores'>Sabores</Link>
-                <Link className="menu-item" to='sobre'>Sobre</Link>
+                <Link className="menu-item" to='/sobre'>Sobre</Link>
             </nav>
         </div>
     </header>

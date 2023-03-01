@@ -1,0 +1,35 @@
+.banner-sobre {
+    background-image: url('/public/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.descricao {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.descricao h2 {
+    font-size: 35px;
+}
+
+.descricao span {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.descricao p {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img{
+    width: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
