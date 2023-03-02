@@ -18,12 +18,12 @@ Página sobre
 
 Para executar a aplicação em sua máquina local, siga os passos abaixo:
 
-    1. Faça o download ou clone o repositório em sua máquina.
-    2. Certifique-se de que possui o Node.js e o npm instalados em sua máquina.
-    3. Abra o terminal na pasta raiz do projeto.
-    4. Execute o comando ***npm install*** para instalar todas as dependências do projeto.
-    5. Execute o comando ***npm start*** para iniciar a aplicação.
-    6. Abra o navegador e acesse a URL ***http://localhost:3000/*** para visualizar a aplicação.
+1. Faça o download ou clone o repositório em sua máquina.
+2. Certifique-se de que possui o Node.js e o npm instalados em sua máquina.
+3. Abra o terminal na pasta raiz do projeto.
+4. Execute o comando ***npm install*** para instalar todas as dependências do projeto.
+5. Execute o comando ***npm start*** para iniciar a aplicação.
+6. Abra o navegador e acesse a URL ***http://localhost:3000/*** para visualizar a aplicação.
 
 Caso ocorra algum erro durante a execução, certifique-se de que seguiu todos os passos corretamente e tente novamente.
 
