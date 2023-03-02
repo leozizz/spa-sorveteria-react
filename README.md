@@ -9,10 +9,13 @@ A aplicação foi desenvolvida utilizando o conceito de rotas, onde cada botão/
 Abaixo estão alguns prints da aplicação em funcionamento.
 
 Página principal
+![Pagina Principal](./public/assets/readme/pagina-principal.gif)
 
 Página sabores
+![Pagina Sabores](./public/assets/readme/pagina-sabores.gif)
 
 Página sobre
+![Pagina Sobre](./public/assets/readme/pagina-sobre.gif)
 
 ## Como executar a aplicação
 
@@ -23,7 +26,7 @@ Para executar a aplicação em sua máquina local, siga os passos abaixo:
 3. Abra o terminal na pasta raiz do projeto.
 4. Execute o comando ***npm install*** para instalar todas as dependências do projeto.
 5. Execute o comando ***npm start*** para iniciar a aplicação.
-6. Abra o navegador e acesse a URL ***http://localhost:3000/*** para visualizar a aplicação.
+6. Abra o navegador e acesse a URL **http://localhost:3000/** para visualizar a aplicação.
 
 Caso ocorra algum erro durante a execução, certifique-se de que seguiu todos os passos corretamente e tente novamente.
 
